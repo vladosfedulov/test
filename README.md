@@ -1,4 +1,4 @@
 # test
 eVelopers
 
-contains python script and sql
+contain python script and sql
