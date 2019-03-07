@@ -1,0 +1,3 @@
+SELECT T1.name, T3.name
+FROM table_1 T1 INNER JOIN table_2 T2 ON (T1.bank_id = T2.parent_id)
+INNER JOIN table_1 T3 ON (T2.filial_id = T3.bank_id)
