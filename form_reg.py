@@ -14,7 +14,7 @@ class TestForm(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r'C:/Users/vladi_000/chromedriver.exe')
         logging.config.fileConfig('logger_config.conf')
-        logger = logging.getLogger("test00")
+        logger = logging.getLogger("test")
         logger.info("Test started")
 
     # Все данные верны
